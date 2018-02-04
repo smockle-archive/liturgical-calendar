@@ -1,0 +1,26 @@
+{
+  "name": "liturgical-calendar",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Clay Miller <clay@smockle.com> (https://smockle.com)",
+  "license": "MIT",
+  "dependencies": {
+    "@std/esm": "^0.20.0",
+    "icalendar": "^0.7.1",
+    "romcal": "^1.2.3",
+    "uuid": "^3.2.1"
+  },
+  "devDependencies": {
+    "babel-eslint": "^7.2.3",
+    "eslint": "^4.17.0",
+    "eslint-config-react-app": "^2.1.0",
+    "eslint-plugin-flowtype": "^2.42.0",
+    "eslint-plugin-import": "^2.8.0",
+    "eslint-plugin-jsx-a11y": "^5.1.1",
+    "eslint-plugin-react": "^7.6.1"
+  }
+}
