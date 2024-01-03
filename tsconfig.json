@@ -1,0 +1,17 @@
+{
+  "compilerOptions": {
+    "target": "esnext",
+    "module": "esnext",
+    "moduleResolution": "node",
+    "esModuleInterop": true,
+    "strict": true,
+    "rootDir": "src",
+    "outDir": "dist",
+    "composite": true,
+    "incremental": true
+  },
+  "include": ["src/**/*.ts"],
+  "ts-node": {
+    "esm": true
+  }
+}

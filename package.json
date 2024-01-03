@@ -1,0 +1,25 @@
+{
+  "name": "liturgical-calendar",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/index.js",
+  "module": "dist/index.js",
+  "type": "module",
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/index.js"
+  },
+  "keywords": [],
+  "author": "Clay Miller <clay@smockle.com> (https://www.smockle.com/)",
+  "license": "MIT",
+  "dependencies": {
+    "@romcal/calendar.general-roman": "^3.0.0-dev.58",
+    "@romcal/calendar.united-states": "^3.0.0-dev.58",
+    "ics": "^3.7.2",
+    "romcal": "^3.0.0-dev.58"
+  },
+  "devDependencies": {
+    "@types/node": "^20.10.6",
+    "typescript": "^5.3.3"
+  }
+}
