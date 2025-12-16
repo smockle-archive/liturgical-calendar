@@ -6,7 +6,7 @@ import { toIcsCalendar } from "./toIcsCalendar.js";
 import { toIcsEvents } from "./toIcsEvents.js";
 
 // Current year
-const year = new Date().getFullYear();
+const year = new Date().getFullYear() + 1;
 
 // Calendar object of solemnities, feasts, and memorials in the current year
 const liturgicalCalendar = await getLiturgicalCalendar(year);

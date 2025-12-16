@@ -1,4 +1,5 @@
 import { createEvents, type EventAttributes } from "ics";
+import { normalizeIcs } from "./normalizeIcs.js";
 
 // Convert an array of ics events to an ics calendar.
 export function toIcsCalendar(events: EventAttributes[]): string {
@@ -11,5 +12,5 @@ export function toIcsCalendar(events: EventAttributes[]): string {
       `Failed to create calendar using events: ${JSON.stringify(events)}`
     );
   }
-  return value;
+  return normalizeIcs(value);
 }
