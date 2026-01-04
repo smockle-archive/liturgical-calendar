@@ -14,10 +14,10 @@
   "author": "Clay Miller <clay@smockle.com> (https://www.smockle.com/)",
   "license": "MIT",
   "dependencies": {
-    "@romcal/calendar.general-roman": "^3.0.0-dev.58",
-    "@romcal/calendar.united-states": "^3.0.0-dev.58",
+    "@romcal/calendar.general-roman": "^3.0.0-dev.119",
+    "@romcal/calendar.united-states": "^3.0.0-dev.119",
     "ics": "^3.7.2",
-    "romcal": "^3.0.0-dev.58"
+    "romcal": "^3.0.0-dev.119"
   },
   "devDependencies": {
     "@types/node": "^25.0.3",
