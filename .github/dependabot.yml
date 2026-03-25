@@ -4,6 +4,14 @@ updates:
     directories:
       - "/"
     groups:
+      # Keep the Romcal packages in one PR because their prerelease versions
+      # need to stay aligned and Dependabot classifies them as separate majors.
+      romcal:
+        applies-to: version-updates
+        patterns:
+          - "romcal"
+          - "@romcal/calendar.general-roman"
+          - "@romcal/calendar.united-states"
       # Open PRs for each major version and security update
       # Open an aggregate PR for all minor and patch version updates
       npm-minor-and-patch:
