@@ -1,6 +1,6 @@
 * @smockle
 
 # Dependencies
-package.json @smockle @github-actions[bot]
-package-lock.json @smockle @github-actions[bot]
-.github/workflows/*.yml @smockle @github-actions[bot]
+package.json @smockle 41898282+github-actions[bot]@users.noreply.github.com
+package-lock.json @smockle 41898282+github-actions[bot]@users.noreply.github.com
+.github/workflows/*.yml @smockle 41898282+github-actions[bot]@users.noreply.github.com
