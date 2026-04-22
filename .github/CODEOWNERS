@@ -3,4 +3,4 @@
 # dependencies
 package.json
 package-lock.json
-.github/workflows
+.github/workflows/*.yml
