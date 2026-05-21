@@ -23,6 +23,8 @@ updates:
           - "patch"
     schedule:
       interval: "weekly"
+    cooldown:
+      default-days: 3
   - package-ecosystem: "github-actions"
     directories:
       - "/"
@@ -33,3 +35,5 @@ updates:
           - "*"
     schedule:
       interval: "weekly"
+    cooldown:
+      default-days: 3

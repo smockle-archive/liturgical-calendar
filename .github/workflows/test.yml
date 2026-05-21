@@ -15,7 +15,6 @@ jobs:
       - uses: actions/setup-node@v6
         with:
           node-version: 24
-      - run: npm install -g npm@^11.0.0
       - run: npm ci
       - run: npm run build
       - run: npm start
