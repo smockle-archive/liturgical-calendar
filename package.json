@@ -20,7 +20,7 @@
     "romcal": "^3.0.0-dev.119"
   },
   "devDependencies": {
-    "@types/node": "^25.0.3",
+    "@types/node": "^26.0.0",
     "typescript": "^6.0.2"
   }
 }
