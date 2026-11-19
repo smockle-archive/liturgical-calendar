@@ -1,7 +1,7 @@
 import type { LiturgicalDay } from "romcal";
-import { EventAttributes } from "ics";
-import { toDateArray } from "./toDateArray.js";
-import { getDayAfter } from "./getDayAfter.js";
+import type { EventAttributes } from "ics";
+import { toDateArray } from "./toDateArray.ts";
+import { getDayAfter } from "./getDayAfter.ts";
 
 // Convert a liturgical calendar object to an array of ics events.
 export function toIcsEvents(
