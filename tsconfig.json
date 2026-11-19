@@ -8,8 +8,8 @@
     "strict": true,
     "rootDir": "src",
     "outDir": "dist",
-    "composite": true,
-    "incremental": true
+    "allowImportingTsExtensions": true,
+    "rewriteRelativeImportExtensions": true
   },
   "include": ["src/**/*.ts"],
   "ts-node": {

@@ -1,9 +1,9 @@
 #!/usr/bin/env node
 
 import { writeFileSync } from "node:fs";
-import { getLiturgicalCalendar } from "./getLiturgicalCalendar.js";
-import { toIcsCalendar } from "./toIcsCalendar.js";
-import { toIcsEvents } from "./toIcsEvents.js";
+import { getLiturgicalCalendar } from "./getLiturgicalCalendar.ts";
+import { toIcsCalendar } from "./toIcsCalendar.ts";
+import { toIcsEvents } from "./toIcsEvents.ts";
 
 // Current year
 const year = new Date().getFullYear() + 1;

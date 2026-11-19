@@ -1,5 +1,5 @@
 import assert from "node:assert";
-import { toDateArray } from "./toDateArray.js";
+import { toDateArray } from "./toDateArray.ts";
 
 // Get the date one day after a given date, in YYYY-MM-DD format.
 export function getDayAfter(YYYYMMDD: string): string {

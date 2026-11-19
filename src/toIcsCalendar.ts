@@ -1,5 +1,5 @@
 import { createEvents, type EventAttributes } from "ics";
-import { normalizeIcs } from "./normalizeIcs.js";
+import { normalizeIcs } from "./normalizeIcs.ts";
 
 // Convert an array of ics events to an ics calendar.
 export function toIcsCalendar(events: EventAttributes[]): string {
